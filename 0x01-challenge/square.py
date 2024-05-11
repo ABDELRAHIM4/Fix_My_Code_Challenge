@@ -4,17 +4,15 @@
 
 class Square:
     """class square"""
-    def __init__(self, width = 0, height = 0):
+    def __init__(self, width):
         self._width = width
-        self._height = height
 
     def area(self):
         """ Area of the square """
-        return self._width * self._width
+        return (self._width * self._width)
 
     def perimeter(self):
         return (self._width * 4)
-
 
     def __str__(self):
         return ("Square width {}".format(self._width))
