@@ -9,13 +9,13 @@ class Square:
         self.__height = height
     def area(self):
         """ Area of the square """
-        return (self.__width * self.__width)
+        return (self.__width * self.__height)
 
     def perimeter(self):
         return ((self.__width * 2) + (self.__height * 2))
 
     def __str__(self):
-        return ("Square width {}".format(self.__width))
+        return ("{}/{}".format(self.__width, self.__height))
 
 
 if __name__ == "__main__":
