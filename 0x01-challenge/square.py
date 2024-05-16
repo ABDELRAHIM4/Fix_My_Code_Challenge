@@ -5,17 +5,17 @@
 class Square:
     """class square"""
     def __init__(self, width, height):
-        self._width = width
-        self._height = height
+        self.__width = width
+        self.__height = height
     def area(self):
         """ Area of the square """
-        return (self._width * self._width)
+        return (self.__width * self.__width)
 
     def perimeter(self):
-        return ((self._width * 2) + (self._height * 2))
+        return ((self.__width * 2) + (self.__height * 2))
 
     def __str__(self):
-        return ("Square width {}".format(self._width))
+        return ("Square width {}".format(self.__width))
 
 
 if __name__ == "__main__":
