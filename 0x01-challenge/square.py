@@ -10,7 +10,7 @@ class Square:
 
     def area(self):
         """ Area of the square """
-        return (self.__width * self.__height)
+        return (self.__width * self.__width)
 
     def perimeter(self):
         return ((self.__width * 2) + (self.__height * 2))
